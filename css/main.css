@@ -1,0 +1,28 @@
+.centered {
+	text-align: center;
+}
+
+.border{
+	border:1px solid #333;
+}
+
+ul{
+	list-style:none;
+}
+
+h4,p{
+	text-align:left;
+}
+
+.hidden{
+	display:none;
+}
+
+
+.green{
+	color:green;
+}
+
+.red{
+	color:tomato;
+}

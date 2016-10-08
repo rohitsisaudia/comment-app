@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+
+</head>
+<body id='addHere'> 
+
+<div class='container'>
+	<div class='row'>
+		<div class='col-md-6 col-md-offset-3 centered'>
+			<h2>Please leave a comment</h2>
+			<form class='form-group'>
+				<input class='form-control' id = 'username' type="text" name="username" placeholder='Username'>
+				<textarea class="form-control" rows="3" id="comment" placeholder="Please leave a comment..."></textarea>
+				<button class="form-control btn btn-primary" type="button" onclick='submitEntry()'>Submit Comment</button>
+			</form>
+		</div>
+	</div>
+	<div class='row'>
+		<div class='col-md-6 col-md-offset-3 centered'>
+			<ul id="addComment">
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquerymain.js"></script>
+<script type="text/javascript" src= "js/jquery.1.12.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
